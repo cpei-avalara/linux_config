@@ -1,7 +1,7 @@
 set nu
 colorscheme elflord
 
-
+" latex suite settings
 " IMPORTANT: win32 users will need to have 'shellslash' set so that latex
 " can be called correctly.
 set shellslash
@@ -9,27 +9,28 @@ set shellslash
 " search in a singe file. This will confuse latex-suite. Set your grep
 " program to alway generate a file-name.
 set grepprg=grep\ -nH\ $*
+
+
 set backupdir=~/.backup
 set dir=~/.backup
 " set printers
 "set pdev=color_208
 
+" tab instead of space
 set tabstop=4
 set shiftwidth=4
 set expandtab
 
-
+" powerline
 set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-
 " Always show statusline
 set laststatus=2
-
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
 
+" start Vbundle settings
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -71,18 +72,23 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-"
+" End of Vbundle
+
+
+
+" netrw (vim built-in browser)
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
-
 "augroup ProjectDrawer
 "      autocmd!
 "        autocmd VimEnter * :Vexplore
 "augroup END
 
+
+" cscope setting
 if has('cscope')
   set cscopetag cscopeverbose
 
@@ -99,7 +105,8 @@ if has('cscope')
 
   command -nargs=0 Cscope cs add $VIMSRC/src/cscope.out $VIMSRC/src
 endif
+"set tags=~/db/gitlabtag
 
+" misc
 set cursorline
 " set cursorcolumn
-"set tags=~/db/gitlabtag
