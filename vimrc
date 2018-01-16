@@ -167,3 +167,8 @@ endif
 " misc
 set cursorline
 " set cursorcolumn
+
+" vertical separation bar
+set fillchars+=vert:│
+hi VertSplit ctermbg=NONE guibg=NONE cterm=NONE
+autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=Green ctermbg=Black
