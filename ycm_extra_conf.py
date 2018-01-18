@@ -2,6 +2,7 @@ import os
 import re
 import subprocess
 import ycm_core
+import logging
 
 def LoadSystemIncludes():
     regex = re.compile(r"(?:\#include \<...\> search starts here\:)(?P<list>.*?)(?:End of search list)", re.DOTALL);
@@ -19,18 +20,21 @@ def LoadSystemIncludes():
 SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]
 scriptPath = os.path.dirname(os.path.abspath(__file__));
 
-compilation_database_folder = os.path.join('~/cpp', 'build', 'debug')
+compilation_database_folder = os.path.join(scriptPath, 'build/debug')
 
 database = None if not os.path.exists(compilation_database_folder) else ycm_core.CompilationDatabase(compilation_database_folder)
+
 systemIncludes = LoadSystemIncludes();
 flags = systemIncludes;
 
 def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):
   if not working_directory:
     return list(flags)
+
   new_flags = []
   make_next_absolute = False
   path_flags = ['-isystem', '-I', '-iquote', '--sysroot=']
+
   for flag in flags:
     new_flag = flag
 
@@ -63,7 +67,8 @@ def GetCompilationInfoForFile(filename):
   # corresponding source file, if any. If one exists, the flags for that file
   # should be good enough.
   if IsHeaderFile(filename):
-    basename = re.sub('_inline', '', os.path.splitext(filename)[0])
+    basename = os.path.splitext(filename)[0]
+    #basename = re.sub('_inline', '', os.path.splitext(filename)[0])
     for extension in SOURCE_EXTENSIONS:
       replacement_file = basename + extension
       if os.path.exists(replacement_file):
@@ -78,6 +83,9 @@ def FlagsForFile(filename, **kwargs):
     # Bear in mind that compilation_info.compiler_flags_ does NOT return a
     # python list, but a "list-like" StringVec object
     compilation_info = GetCompilationInfoForFile(filename)
+
+    logging.debug(compilation_info)
+
     if not compilation_info:
       return None
 
@@ -85,6 +93,9 @@ def FlagsForFile(filename, **kwargs):
     final_flags += ['-x', 'c++']
   else:
     final_flags = MakeRelativePathsInFlagsAbsolute(flags, scriptPath)
+
+  logging.debug(final_flags)
+
 
   return {
     'flags': final_flags,
