@@ -125,6 +125,8 @@ let g:clang_user_options='|| exit 0'
 " nnoremap ""leader>y :let g:ycm_auto_trigger=0<CR>
 " nnoremap ""leader>Y :let g:ycm_auto_trigger=1<CR>
 set runtimepath-=~/.vim/bundle/YouCompleteMe
+" this is neede when ycm is compiled with a different version of python
+"let g:ycm_server_python_interpreter='/usr/bin/python'
 
 " switch between header and source code
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
