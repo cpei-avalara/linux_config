@@ -174,3 +174,5 @@ set cursorline
 set fillchars+=vert:│
 hi VertSplit ctermbg=NONE guibg=NONE cterm=NONE
 autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=Green ctermbg=Black
+set backspace=indent,eol,start
+let &colorcolumn="80,".join(range(120,999),",")
