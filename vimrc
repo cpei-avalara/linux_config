@@ -176,3 +176,5 @@ hi VertSplit ctermbg=NONE guibg=NONE cterm=NONE
 autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=Green ctermbg=Black
 set backspace=indent,eol,start
 let &colorcolumn="80,".join(range(120,999),",")
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
