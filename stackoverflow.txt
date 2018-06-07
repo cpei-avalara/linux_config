@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/8108981/how-can-variadic-char-template-arguments-from-user-defined-literals-be-converted
+https://stackoverflow.com/questions/2033110/passing-a-string-literal-as-a-parameter-to-a-c-template-class
+https://stackoverflow.com/questions/44779780/user-defined-string-literal-is-string-null-terminated
+https://stackoverflow.com/questions/15858141/conveniently-declaring-compile-time-strings-in-c
+https://akrzemi1.wordpress.com/2012/10/23/user-defined-literals-part-ii/
+https://stackoverflow.com/questions/13112369/user-defined-string-literals-vs-other-user-defined-literals
+https://www.reddit.com/r/cpp/comments/53m612/the_case_for_optional_references/
