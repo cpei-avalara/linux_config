@@ -1,0 +1,2 @@
+sudo apt-get install python-pip curl gcc git clang tmux zsh cmake gvim-gtk3 cowsay amule texlive
+sudo apt-get install net-tools openssh-server fonts-powerline code libboost-all-dev lm-sensors emacs elinks

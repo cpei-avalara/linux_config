@@ -125,6 +125,8 @@ let g:clang_user_options='|| exit 0'
 " nnoremap ""leader>y :let g:ycm_auto_trigger=0<CR>
 " nnoremap ""leader>Y :let g:ycm_auto_trigger=1<CR>
 set runtimepath-=~/.vim/bundle/YouCompleteMe
+" this is neede when ycm is compiled with a different version of python
+"let g:ycm_server_python_interpreter='/usr/bin/python'
 
 " switch between header and source code
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
@@ -167,3 +169,12 @@ endif
 " misc
 set cursorline
 " set cursorcolumn
+
+" vertical separation bar
+set fillchars+=vert:│
+hi VertSplit ctermbg=NONE guibg=NONE cterm=NONE
+autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=Green ctermbg=Black
+set backspace=indent,eol,start
+let &colorcolumn="80,".join(range(120,999),",")
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
