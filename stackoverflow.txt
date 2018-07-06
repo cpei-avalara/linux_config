@@ -2,6 +2,12 @@ https://stackoverflow.com/questions/8108981/how-can-variadic-char-template-argum
 https://stackoverflow.com/questions/2033110/passing-a-string-literal-as-a-parameter-to-a-c-template-class
 https://stackoverflow.com/questions/44779780/user-defined-string-literal-is-string-null-terminated
 https://stackoverflow.com/questions/15858141/conveniently-declaring-compile-time-strings-in-c
-https://akrzemi1.wordpress.com/2012/10/23/user-defined-literals-part-ii/
 https://stackoverflow.com/questions/13112369/user-defined-string-literals-vs-other-user-defined-literals
 https://www.reddit.com/r/cpp/comments/53m612/the_case_for_optional_references/
+https://www.daniweb.com/programming/software-development/code/482276/c-11-compile-time-string-concatenation-with-constexpr
+https://ibob.github.io/blog/2018/07/03/compiler-generated-move/
+https://akrzemi1.wordpress.com/2012/10/23/user-defined-literals-part-ii/
+https://akrzemi1.wordpress.com/2014/04/14/common-optimizations/
+https://akrzemi1.wordpress.com/2017/06/28/compile-time-string-concatenation/
+https://hackernoon.com/experimenting-with-small-buffer-optimization-for-c-lambdas-d5b703fb47e4
+https://www.murrayc.com/permalink/2017/06/20/c-stdstring_view-not-so-useful-when-calling-c-functions/
