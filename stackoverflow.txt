@@ -11,3 +11,12 @@ https://akrzemi1.wordpress.com/2014/04/14/common-optimizations/
 https://akrzemi1.wordpress.com/2017/06/28/compile-time-string-concatenation/
 https://hackernoon.com/experimenting-with-small-buffer-optimization-for-c-lambdas-d5b703fb47e4
 https://www.murrayc.com/permalink/2017/06/20/c-stdstring_view-not-so-useful-when-calling-c-functions/
+
+https://akrzemi1.wordpress.com/2017/06/28/compile-time-string-concatenation/ talks about std::function is too general and used heap allocation (PIMPL). User defined a smallfunc to replace std::function which could be improved to add noexcept to avoid the issues below.
+https://ibob.github.io/blog/2018/07/03/compiler-generated-move/ talks about std::function does not have a noexcept move constructor so an array of objects which has std::function as a member will copy instead of move during resize because compiler generated move constructor does not have noexcept and std::vector use move_if_noexcept to determine to copy or move during resizing.
+
+
+https://stackoverflow.com/questions/161177/does-c-support-finally-blocks-and-whats-this-raii-i-keep-hearing-about
+https://en.wikipedia.org/wiki/Find_first_set
+https://stackoverflow.com/questions/466204/rounding-up-to-next-power-of-2
+https://stackoverflow.com/questions/108318/whats-the-simplest-way-to-test-whether-a-number-is-a-power-of-2-in-c
