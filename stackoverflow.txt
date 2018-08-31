@@ -20,3 +20,12 @@ https://stackoverflow.com/questions/161177/does-c-support-finally-blocks-and-wha
 https://en.wikipedia.org/wiki/Find_first_set
 https://stackoverflow.com/questions/466204/rounding-up-to-next-power-of-2
 https://stackoverflow.com/questions/108318/whats-the-simplest-way-to-test-whether-a-number-is-a-power-of-2-in-c
+
+https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time
+https://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time
+http://wouter.coekaerts.be/2018/java-type-system-broken
+https://codesynthesis.com/~boris/blog/2012/07/24/const-rvalue-references/
+https://www.bfilipek.com/2018/07/menu-cpp17-example.html
+
+https://www.reddit.com/r/cpp/comments/9baxn0/how_to_specialize_stdsort_by_binding_the/
+https://www.reddit.com/r/cpp/comments/3m0rsk/functional_whats_new_and_proper_usage/cvbs8bq/?context=3&st=jlfr58qn&sh=ad0b1598
