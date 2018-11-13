@@ -29,3 +29,9 @@ https://www.bfilipek.com/2018/07/menu-cpp17-example.html
 
 https://www.reddit.com/r/cpp/comments/9baxn0/how_to_specialize_stdsort_by_binding_the/
 https://www.reddit.com/r/cpp/comments/3m0rsk/functional_whats_new_and_proper_usage/cvbs8bq/?context=3&st=jlfr58qn&sh=ad0b1598
+https://blog.therocode.net/2018/09/compile-time-string-parsing
+
+https://www.7pace.com/blog/become-a-better-programmer-skills-development
+https://stackoverflow.com/questions/20517259/why-vector-access-operators-are-not-specified-as-noexcept
+
+https://blog.regehr.org/archives/213
