@@ -26,6 +26,7 @@ https://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-ab
 http://wouter.coekaerts.be/2018/java-type-system-broken
 https://codesynthesis.com/~boris/blog/2012/07/24/const-rvalue-references/
 https://www.bfilipek.com/2018/07/menu-cpp17-example.html
+http://tantalon.com/pete/cppopt/final.htm
 
 https://www.reddit.com/r/cpp/comments/9baxn0/how_to_specialize_stdsort_by_binding_the/
 https://www.reddit.com/r/cpp/comments/3m0rsk/functional_whats_new_and_proper_usage/cvbs8bq/?context=3&st=jlfr58qn&sh=ad0b1598
@@ -35,3 +36,6 @@ https://www.7pace.com/blog/become-a-better-programmer-skills-development
 https://stackoverflow.com/questions/20517259/why-vector-access-operators-are-not-specified-as-noexcept
 
 https://blog.regehr.org/archives/213
+
+linux trap manual
+http://mywiki.wooledge.org/SignalTrap
