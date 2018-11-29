@@ -40,3 +40,4 @@ https://blog.regehr.org/archives/213
 linux trap manual
 http://mywiki.wooledge.org/SignalTrap
 http://www.kegel.com/c10k.html#writev
+https://ref.onixs.biz/lost-multicast-packets-troubleshooting.html
