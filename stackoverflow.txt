@@ -43,3 +43,10 @@ http://mywiki.wooledge.org/SignalTrap
 programming competitive
 https://cpbook.net/
 
+http://www.kegel.com/c10k.html#writev
+https://ref.onixs.biz/lost-multicast-packets-troubleshooting.html
+
+dallas
+https://www.tripadvisor.com/Guide-g55711-k4881-Dallas_Texas.html
+https://www.tripadvisor.com/Guide-g55711-k4875-Dallas_Texas.html
+https://www.tripadvisor.com/Guide-g55711-k4882-Dallas_Texas.html
