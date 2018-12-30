@@ -34,8 +34,12 @@ https://blog.therocode.net/2018/09/compile-time-string-parsing
 
 https://www.7pace.com/blog/become-a-better-programmer-skills-development
 https://stackoverflow.com/questions/20517259/why-vector-access-operators-are-not-specified-as-noexcept
+https://gieseanw.wordpress.com/2018/12/29/stop-reimplementing-the-virtual-table-and-start-using-double-dispatch/
 
 https://blog.regehr.org/archives/213
 
 linux trap manual
 http://mywiki.wooledge.org/SignalTrap
+programming competitive
+https://cpbook.net/
+
