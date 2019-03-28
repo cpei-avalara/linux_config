@@ -50,3 +50,6 @@ dallas
 https://www.tripadvisor.com/Guide-g55711-k4881-Dallas_Texas.html
 https://www.tripadvisor.com/Guide-g55711-k4875-Dallas_Texas.html
 https://www.tripadvisor.com/Guide-g55711-k4882-Dallas_Texas.html
+
+corotine, generator
+http://exploringjs.com/es6/ch_generators.html#objectEntries_generator
