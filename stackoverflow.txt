@@ -53,3 +53,6 @@ https://www.tripadvisor.com/Guide-g55711-k4882-Dallas_Texas.html
 
 corotine, generator
 http://exploringjs.com/es6/ch_generators.html#objectEntries_generator
+
+detection idiom
+https://blog.tartanllama.xyz/detection-idiom/
