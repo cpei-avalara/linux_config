@@ -56,3 +56,7 @@ http://exploringjs.com/es6/ch_generators.html#objectEntries_generator
 
 detection idiom
 https://blog.tartanllama.xyz/detection-idiom/
+
+speed up qsort / beat up 
+https://travisdowns.github.io/blog/2019/05/22/sorting.html
+https://lemire.me/blog/2019/05/07/almost-picking-n-distinct-numbers-at-random/
