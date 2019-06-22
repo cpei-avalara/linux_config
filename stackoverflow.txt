@@ -63,3 +63,5 @@ https://lemire.me/blog/2019/05/07/almost-picking-n-distinct-numbers-at-random/
 
 vim
 https://www.hillelwayne.com/post/intermediate-vim/
+
+python
