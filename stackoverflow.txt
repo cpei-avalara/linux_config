@@ -40,6 +40,9 @@ https://blog.regehr.org/archives/213
 
 linux trap manual
 http://mywiki.wooledge.org/SignalTrap
+Linux kernel fuzzing
+https://blog.cloudflare.com/a-gentle-introduction-to-linux-kernel-fuzzing/
+
 programming competitive
 https://cpbook.net/
 
@@ -65,3 +68,6 @@ vim
 https://www.hillelwayne.com/post/intermediate-vim/
 
 python
+
+dynamic lib
+https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
